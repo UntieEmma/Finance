@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Mercury Global Finance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+        <div class="container">
+                <div class="logo"><img src="images/Global-Finance-Logo-Template-Graphics-16222874-3-312x208.jpg" width="150"></div>
+                <h1 class="animated">Mercury Global Finance</h1>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="loanapplication.html">Loan Application</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </header>   
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Our Services</h2>
+        <p>At Mercury Global Finance, we offer a wide range of financial services to meet the diverse needs of our clients. Explore our offerings below:</p>
+      </section>
+
+      <section>
+        <h3>Personal Loans</h3>
+        <p>Get the financial support you need with our personal loan options. Whether it's for home renovations, debt consolidation, or unexpected expenses, we've got you covered.</p>
+      </section>
+
+      <section>
+        <h3>Business Loans</h3>
+        <p>Grow your business with our flexible business loan solutions. From startup financing to expansion capital, we provide tailored lending options to fuel your success.</p>
+      </section>
+
+      <section>
+        <h3>Mortgages</h3>
+        <p>Secure your dream home with our competitive mortgage rates and flexible repayment terms. Our experienced team will guide you through the mortgage process with ease.</p>
+      </section>
+
+      <section>
+        <h3>Investment Services</h3>
+        <p>Grow your wealth with our investment services. From retirement planning to portfolio management, we offer personalized investment solutions to help you achieve your financial goals.</p>
+      </section>
+
+      <section>
+        <h3>Financial Planning</h3>
+        <p>Plan for a secure financial future with our comprehensive financial planning services. Our experts will work with you to create a customized plan tailored to your unique needs and goals.</p>
+      </section>
+
+      <section>
+        <h3>Insurance</h3>
+        <p>Protect what matters most with our insurance products. From life insurance to property and casualty coverage, we offer a range of insurance options to provide peace of mind for you and your loved ones.</p>
+      </section>
+
+      <section>
+
+    </div>
+  </main>
+
+  <footer>
+        <div class="container">
+                <p>&copy; 2024 Mercury Global Finance. All rights reserved.</p>
+              </div>   
+  </footer>
+</body>
+</html>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ddeeff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #004080;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #002040;
+}
+
+footer {
+  background-color: #ddeeff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.animated {
+  animation: slide-in 1s ease;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  animation: slideFromLeft 1s ease forwards;
+  opacity: 0;
+}
+
+section h2, section h3 {
+  margin-bottom: 20px;
+  position: relative;
+  animation: slideFromLeft 1s ease forwards;
+  opacity: 0;
+}
+
+section h2:before, section h3:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #004080;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+</style>

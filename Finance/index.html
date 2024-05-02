@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercury Global Finance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+          <img src="images/Global-Finance-Logo-Template-Graphics-16222874-3-312x208.jpg" width="150"></div>
+      <h1 class="animated">Mercury Global Finance</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="loanapplication.html">Loan Application</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+        <div class ="img">
+                <img src="images/360_F_492295739_CottbXKQOVYMZaX7IH4BBQd8Hd9ZM2m6.jpg" width="300" height="250" >
+                <img src="images/download.jfif" width="300" height="250">
+            </div>
+        <div class="container">    
+                <section>
+                  <h2>Our Story</h2>
+                  <p>Discover the journey of Mercury Global Finance, a trusted name in lending solutions. Learn about our values, history, and commitment to excellence.</p>
+                </section>
+              
+                <section>
+                  <h2>Our Offerings</h2>
+                  <p>Explore our comprehensive suite of lending services tailored to suit your financial needs. From flexible repayment options to competitive interest rates, we have the right solution for you.</p>
+                </section>
+              
+                <section>
+                  <h2>Our Commitment</h2>
+                  <p>At Mercury Global Finance, we are dedicated to building lasting relationships with our clients. Our commitment to integrity, transparency, and exceptional service sets us apart.</p>
+                </section>
+              </div>
+              
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mercury Global Finance. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+<style>
+/* Reset CSS */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+section p:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #004080;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h2 {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #004080;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img img {
+  animation: easeInOut 1s ease forwards;
+  transform: scale(0);
+  opacity: 0;
+}
+
+@keyframes easeInOut {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ddeeff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #004080;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2,
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #002040;
+}
+
+footer {
+  background-color: #ddeeff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.animated {
+  animation: slide-in 1s ease;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+</style>
